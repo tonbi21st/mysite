@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+body{
+  background: #e6f6ff;
+}
+
+.containerX{
+  display: flex;
+}
+@media (min-width: 500px){
+  body {
+    background: red;
+    .containerX{
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 800px){
+  body {
+    background:greenyellow;
+  }
+}
+
+.container {
+  border: 8px solid blue;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.timertime {
+
+  width: 200px;
+  height: 60px;
+  font-size: 40px;
+
+}
+
+.button {
+  width: 60px;
+  height: 50px;
+  text-align: center;
+}
+
+
+.container2 {
+  border: 8px solid red;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+input {
+  text-align: right;
+}
+
+main {
+  background: #fff;
+  width: 420px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 16px;
+  
+}
+
+p {
+  background: #fff;
+  width: 420px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 16px;
+  font-size: 50px;
+}
+
+.remain {
+  width:300px;
+  height: 40px;
+  font-size: 30px;
+}
+
+
+div {
+  flex: auto;
+  background:#e6f6ff;
+  width: 1000px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.alarmtime {
+  width: 60px;
+  height: 40px;
+  font-size: 30px;
+}
